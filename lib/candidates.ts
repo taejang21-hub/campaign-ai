@@ -31,6 +31,7 @@ export type CandidateData = {
 
   branding?: {
     heroImage?: string;
+    logo?: string;
   };
 
 
