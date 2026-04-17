@@ -28,6 +28,12 @@ export type CandidateData = {
     coreMessage?: string;
   };
   domains?: string[];
+
+  branding?: {
+    heroImage?: string;
+  };
+
+
 };
 
 export function getCandidateBySlug(slug: string): CandidateData | null {
