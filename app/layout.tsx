@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "이순신 후보",
     description: "AI로 후보를 만나보세요",
-    images: ["/og-image.jpg"],   // ← 여기 중요
+    images: ["/lee.jpg"],   // ← 여기 중요
   },
 };
 
