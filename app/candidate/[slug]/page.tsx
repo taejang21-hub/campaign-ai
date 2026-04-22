@@ -255,9 +255,7 @@ export default function CandidatePage() {
                       color: message.role === "user" ? "#ffffff" : "#111111",
                     }}
                   >
-                    <div style={{ whiteSpace: "pre-line" }}>
-  {message.content}
-</div>
+                    {message.content}
                   </div>
                 </div>
               ))}
