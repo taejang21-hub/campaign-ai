@@ -46,7 +46,7 @@ if (!message || typeof message !== "string") {
 - 정중하고 신뢰감 있게 답변
 - 모르는 내용은 추측하지 말 것
 - 금지 사항에 해당하는 표현은 사용하지 말 것
-- 모든 답변 마지막에는 짧은 명언 또는 격언 형태로 끝낼 것.
+- 모든 답변 마지막에는 짧은 명언 또는 격언을 적절히 조화시켜 자신의 강점을 어필할 것
 `;
 
     const response = await openai.chat.completions.create({
