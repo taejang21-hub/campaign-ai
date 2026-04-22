@@ -363,7 +363,9 @@ export default function CandidateClient({
                           color: message.role === "user" ? "#ffffff" : "#000000",
                         }}
                       >
-                        {message.content}
+<span style={{ whiteSpace: "pre-line" }}>
+  {message.content}
+</span>
                       </div>
                     </div>
                   ))}
