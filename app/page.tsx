@@ -216,20 +216,7 @@ export default function Home() {
                         }`}
                       >
                        
-                       {messages.map((message, index) => (
-  <div
-    key={index}
-    className={`flex ${
-      message.role === "user" ? "justify-end" : "justify-start"
-    }`}
-  >
-    <div
-      className={`max-w-[82%] rounded-[22px] px-4 py-3 text-[15px] leading-7 shadow-sm ${
-        message.role === "user"
-          ? "bg-black text-white"
-          : "bg-[#f3f5f7] text-black"
-      }`}
-    >
+                     
       <div style={{ whiteSpace: "pre-line" }}>
         {message.content}
       </div>
@@ -237,11 +224,7 @@ export default function Home() {
   </div>
 ))}
 
-                       
-                      </div>
-                    </div>
-                  ))}
-
+                   
                   {isLoading && (
                     <div className="flex justify-start">
                       <div className="rounded-[22px] bg-[#f3f5f7] px-4 py-3 text-[14px] text-black shadow-sm">
