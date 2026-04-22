@@ -14,8 +14,7 @@ export default function Slider() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
-    }, 3000);
-
+    }, 3500);
     return () => clearInterval(timer);
   }, []);
 
@@ -29,39 +28,43 @@ export default function Slider() {
 
   return (
     <div className="mt-4">
-      <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white shadow-sm">
-        <img
-          src={images[index]}
-          alt={`슬라이드 ${index + 1}`}
-          className="h-[180px] w-full object-cover"
-        />
+      <div className="relative h-[180px] w-full overflow-hidden rounded-[24px] border border-black/10 bg-white shadow-sm">
 
+        {/* 이미지 레이어 */}
+        {images.map((src, i) => (
+          <img
+            key={i}
+            src={src}
+            className={`absolute left-0 top-0 h-full w-full object-cover transition-opacity duration-700 ${
+              i === index ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
+
+        {/* 좌우 버튼 */}
         <button
           onClick={goPrev}
-          className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/45 px-3 py-2 text-sm font-bold text-white hover:bg-black/65"
-          type="button"
+          className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-3 py-2 text-white hover:bg-black/60"
         >
           ◀
         </button>
 
         <button
           onClick={goNext}
-          className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/45 px-3 py-2 text-sm font-bold text-white hover:bg-black/65"
-          type="button"
+          className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-3 py-2 text-white hover:bg-black/60"
         >
           ▶
         </button>
 
+        {/* 인디케이터 */}
         <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2">
           {images.map((_, i) => (
             <button
               key={i}
               onClick={() => setIndex(i)}
-              type="button"
               className={`h-2.5 w-2.5 rounded-full ${
-                i === index ? "bg-white" : "bg-white/45"
+                i === index ? "bg-white" : "bg-white/40"
               }`}
-              aria-label={`슬라이드 ${i + 1}번으로 이동`}
             />
           ))}
         </div>
