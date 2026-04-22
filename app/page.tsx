@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Slider from "./Slider";
 
 type Message = {
   role: "assistant" | "user";
@@ -214,7 +215,13 @@ export default function Home() {
                             : "bg-[#f3f5f7] text-black"
                         }`}
                       >
-                        {message.content}
+                       
+                       <div style={{ whiteSpace: "pre-line" }}>
+    {message.content}
+  </div>
+</div>
+
+                       
                       </div>
                     </div>
                   ))}
@@ -268,6 +275,9 @@ export default function Home() {
                     </button>
                   ))}
                 </div>
+
+                <Slider />
+
               </div>
             </div>
           </div>
@@ -308,10 +318,10 @@ export default function Home() {
               <p>
                 비용 <strong className="text-black">90만원</strong> (부가세 별도)
               </p>
-              <p>후보별 공약/철학/비전 AI 반영</p>
-              <p>후보별 맞춤 디자인 제작</p>
-              <p>필요 시 블로그, 인스타 개설 무료 지원</p>
-              <p>공보물, 포스터 등 홍보물 패키지 제작 가능</p>
+              <p>✔ 후보별 공약/철학/비전 AI 반영</p>
+              <p>✔ 후보별 맞춤 디자인 제작</p>
+              <p>✔ 필요 시 블로그, 인스타 개설 무료 지원</p>
+              <p>✔ 공보물, 포스터 등 홍보물 패키지 제작 가능</p>
             </div>
           </div>
         </section>
