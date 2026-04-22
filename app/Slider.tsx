@@ -28,7 +28,7 @@ export default function Slider() {
 
   return (
     <div className="mt-4">
-      <div className="relative h-[180px] w-full overflow-hidden rounded-[24px] border border-black/10 bg-white shadow-sm">
+      <div className="relative h-[100px] w-full overflow-hidden rounded-[24px] border border-black/10 bg-white shadow-sm">
 
         {/* 이미지 레이어 */}
         {images.map((src, i) => (
