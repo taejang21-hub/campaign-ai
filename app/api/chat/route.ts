@@ -6,6 +6,12 @@ export async function POST(req: Request) {
   try {
     const { slug, message } = await req.json();
 
+    const OpenAI = (await import("openai")).default;
+
+  const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+  });
+
 if (!message || typeof message !== "string") {
   return NextResponse.json({
     reply: "메시지가 비어 있습니다."
