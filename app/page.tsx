@@ -71,7 +71,7 @@ export default function Home() {
         <div className="mb-6 flex items-center justify-between">
           <div>
             <p className="text-sm font-semibold tracking-[0.18em] text-black/50">
-              ELECTION AI COMMUNICATION
+              승리하는 선거를 위한 게임 체인저
             </p>
             <h1 className="mt-2 text-2xl font-bold tracking-[-0.03em]">
               선거 AI 시스템
@@ -97,21 +97,25 @@ export default function Home() {
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-[34px] border border-white/40 bg-white/70 p-8 shadow-[0_30px_80px_rgba(0,0,0,0.08)] backdrop-blur-xl">
             <div className="inline-flex items-center rounded-full bg-black px-4 py-1.5 text-xs font-bold text-white">
-              유권자와 만나는 AI 자동 소통 창구
+              새로운 시대의 선거 운동 방식
             </div>
 
             <h2 className="mt-6 text-5xl font-extrabold leading-[1.12] tracking-[-0.05em]">
-              유권자와
+              24시간 쉬지 않고
               <br />
-              24시간 대화하는 선거
+              지역 유권자와 소통하는 AI
             </h2>
 
             <p className="mt-6 text-[17px] leading-8 text-black/72">
-              선거 운동의 핵심은 더 많은 사람을 만나고, 더 깊이 설득하는 데 있습니다.
-              하지만 현실의 선거는 시간과 인력, 비용의 한계에 부딪힙니다. 그래서
-              만든 것이 바로 <strong>선거 AI 시스템</strong>입니다. 이 시스템은 단순한
-              홍보 페이지가 아니라, 유권자가 후보의 공약과 가치, 철학을 직접
-              묻고 답을 받는 <strong>실시간 자동 소통 창구</strong>입니다.
+            선거 운동의 핵심은 보다 많은 사람을 만나는 것에 있습니다.
+하지만 그러기 위해서는 시간과 노력, 그리고 비용의 한계에 부딛힐 수밖에 없습니다.
+선거 운동을 보다 더 효율적으로 할 수 있는 방법이 없을까, 고민하다가
+<strong>선거 AI 시스템</strong>을 개발했습니다.
+            이곳에 접속한 유권자는 후보의 공양에 대한 질문이나 가치 철학 비전을 묻습니다.
+            당장 지역사회가 마주한 현안 문제에 대하여 의견을 낼 수도 있습니다.
+            그러면 AI는 후보의 공양과 살아온 삶의 이력, 가지 지향점을 바탕으로 가장 적절한 답변을 내놓습니다.
+            일일이 찾아서 설득하기 어려운 유권자는 이제 선거 AI 시스템에 맡기세요   
+            
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
