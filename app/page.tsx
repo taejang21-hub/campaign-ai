@@ -135,7 +135,7 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                href="/candidate/lee"
+                href="/candidate/lee" target="_blank"
                 className="rounded-full bg-[linear-gradient(135deg,#4f46e5,#7c3aed)] px-6 py-3 text-sm font-bold text-white shadow-[0_14px_32px_rgba(79,70,229,0.35)] transition hover:scale-[1.02]"
               >
                 샘플 페이지 체험하기
@@ -146,6 +146,12 @@ export default function Home() {
               >
                 지금 바로 문의하기
               </a>
+              <a
+                href="tel:050713388402" target="_blank"
+                className="rounded-full border border-black/15 bg-white/80 px-6 py-3 text-sm font-bold text-black transition hover:bg-white"
+              >
+                선착순 이벤트 신청하기
+              </a>
             </div>
 
             <div className="mt-10 rounded-[28px] border border-black/8 bg-black/[0.03] p-6">
@@ -154,17 +160,17 @@ export default function Home() {
                 <div className="rounded-2xl bg-white/80 p-5">
                   <p className="text-sm font-semibold text-black/50">기존 방식의 한계</p>
                   <ul className="mt-3 space-y-2 text-[15px] leading-7 text-black/75">
-                    <li>• 공약과 철학을 충분히 설명하기 어렵습니다.</li>
-                    <li>• 유권자의 질문에 즉시 대응하기 어렵습니다.</li>
-                    <li>• 후보가 직접 뛰는 시간에는 한계가 있습니다.</li>
+                    <li>• 열정만으로 해결할 수 없는 한계</li>
+                    <li>• 쌍방향 소통의 부재</li>
+                    <li>• MZ세대와의 소통 필요</li>
                   </ul>
                 </div>
                 <div className="rounded-2xl bg-white/80 p-5">
                   <p className="text-sm font-semibold text-black/50">도입 후 변화</p>
                   <ul className="mt-3 space-y-2 text-[15px] leading-7 text-black/75">
-                    <li>• 유권자 접점이 24시간 열려 있습니다.</li>
-                    <li>• 공약 설명이 더 깊고 일관되게 전달됩니다.</li>
-                    <li>• QR코드와 링크로 쉽게 확산할 수 있습니다.</li>
+                    <li>• AI가 24시간 자동응답</li>
+                    <li>• 더 효율적인 공약 전달</li>
+                    <li>• 새로운 세대와의 접점 확보</li>
                   </ul>
                 </div>
               </div>
@@ -268,6 +274,7 @@ export default function Home() {
                     "왜 출마했나요?",
                     "청년 정책을 설명해주세요",
                     "지역 경제 대책이 궁금합니다",
+                    "과거에 어떻게 살아오셨나요?",
                   ].map((q) => (
                     <button
                       key={q}
