@@ -359,7 +359,7 @@ export default function Home() {
               전화로 바로 문의하기
             </a>
             <Link
-              href="/candidate/lee" target=|_blank"
+              href="/candidate/lee" target="_blank"
               className="rounded-full border border-white/30 px-6 py-3 text-sm font-bold text-white transition hover:bg-white hover:text-black"
             >
               샘플 먼저 체험하기
