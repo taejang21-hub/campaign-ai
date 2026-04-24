@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-[34px] border border-white/40 bg-white/70 p-8 shadow-[0_30px_80px_rgba(0,0,0,0.08)] backdrop-blur-xl">
             <div className="inline-flex items-center rounded-full bg-black px-4 py-1.5 text-xs font-bold text-white">
               새로운 시대의 선거 운동 방식
@@ -128,7 +128,7 @@ export default function Home() {
                 <p className="mt-1 text-base font-bold">1~2일</p>
               </div>
               <div className="rounded-2xl bg-white/80 p-4 shadow-sm">
-                <p className="text-sm font-medium text-black/55">비용</p>
+                <p className="text-sm font-medium text-black/55">4월 한정 특가</p>
                 <p className="mt-1 text-base font-bold">90만원 / VAT 별도</p>
               </div>
             </div>
@@ -298,12 +298,12 @@ export default function Home() {
             <p className="text-sm font-bold tracking-[0.12em] text-black/45">
               HOW IT WORKS
             </p>
-            <h3 className="mt-3 text-2xl font-bold">사용 방법은 단순합니다</h3>
+            <h3 className="mt-3 text-2xl font-bold">승리를 위한 폭넓은 활용법</h3>
             <ul className="mt-5 space-y-3 text-[15px] leading-7 text-black/72">
-              <li>1. 후보 정보와 공약, 철학, 메시지를 정리합니다.</li>
-              <li>2. AI에 반영하여 후보 전용 소통 페이지를 제작합니다.</li>
-              <li>3. 링크를 문자, SNS, 블로그, 포스터 QR로 공유합니다.</li>
-              <li>4. 유권자가 질문하고, AI가 후보를 대신해 답합니다.</li>
+              <li>1. 후보 약력, 공약, 핵심 메시지 정리</li>
+              <li>2. AI에 반영 + 후보별 맞춤 디자인 제작</li>
+              <li>3. 링크를 문자나 메신저로 공유, 큐알코드 활용</li>
+              <li>4. 기존 대비 900% 효율의 선거 운동 가능 </li>
             </ul>
           </div>
 
@@ -311,11 +311,11 @@ export default function Home() {
             <p className="text-sm font-bold tracking-[0.12em] text-black/45">
               WHY NOW
             </p>
-            <h3 className="mt-3 text-2xl font-bold">이번 선거에 바로 쓸 수 있습니다</h3>
+            <h3 className="mt-3 text-2xl font-bold">즉시 적용! 신속한 투입!</h3>
             <p className="mt-5 text-[15px] leading-8 text-black/72">
-              이미 시스템을 개발했기 때문에 제작은 빠르게 진행됩니다. 후보자별 공약,
-              철학, 비전, 말투, 디자인 테마까지 반영하여 1~2일 내 선거 현장에 바로
-              사용할 수 있는 상태로 제공합니다.
+              다가오는 지방선거에 즉시 투입할 수 있도록 셋팅을 모두 완료해 놓았습니다.
+              후보가 요청하는 모든 디자인과 기능을 적용하여 1~2일 이내에 신속하게
+              즉시 사용할 수 있는 상태로 제공해 드립니다.
             </p>
           </div>
 
@@ -332,6 +332,7 @@ export default function Home() {
               <p>✔ 후보별 맞춤 디자인 제작</p>
               <p>✔ 필요 시 블로그, 인스타 개설 무료 지원</p>
               <p>✔ 공보물, 포스터 등 홍보물 패키지 제작 가능</p>
+              <p>✔ 공보물과 함께 제작 시 90% 할인 제공</p>
             </div>
           </div>
         </section>
@@ -341,12 +342,12 @@ export default function Home() {
             GAME CHANGER
           </p>
           <h3 className="mt-4 text-4xl font-extrabold tracking-[-0.04em]">
-            이건 단순한 도구가 아닙니다
+            단순한 도구가 아니라, 게임체인저 입니다!
           </h3>
           <p className="mx-auto mt-5 max-w-[760px] text-[17px] leading-8 text-white/82">
             기존처럼 웹포스터나 공약집을 올려두는 방식이 아닙니다. 실제로 유권자와
-            만나고, 의견을 듣고, 공약과 비전을 알릴 수 있는 새로운 선거 창구입니다.
-            후보에게 당장 필요한 <strong className="text-white">게임 체인저</strong>가
+            만나고, 의견을 듣고, 공약과 비전을 알릴 수 있는 새로운 선거 운동 방식입니다.
+            후보의 선거 판세를 바꿀 <strong className="text-white">게임 체인저</strong>가
             될 수 있습니다.
           </p>
 
@@ -358,7 +359,7 @@ export default function Home() {
               전화로 바로 문의하기
             </a>
             <Link
-              href="/candidate/lee"
+              href="/candidate/lee" target=|_blank"
               className="rounded-full border border-white/30 px-6 py-3 text-sm font-bold text-white transition hover:bg-white hover:text-black"
             >
               샘플 먼저 체험하기
