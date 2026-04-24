@@ -110,7 +110,7 @@ export default function Home() {
             선거 운동의 핵심은 보다 많은 사람을 만나는 것에 있습니다.
 하지만 그러기 위해서는 시간과 노력, 그리고 비용의 한계에 부딛힐 수밖에 없습니다.
 선거 운동을 보다 더 효율적으로 할 수 있는 방법이 없을까, 고민하다가 
-<strong>선거 AI 시스템</strong>을 개발했습니다.
+ <strong> 선거 AI 시스템</strong>을 개발했습니다.
             이곳에 접속한 유권자는 후보의 공약에 대한 질문이나 가치, 철학, 비전을 묻습니다.
             당장 지역사회가 마주한 현안 문제에 대하여 의견을 낼 수도 있습니다.
             그러면 AI는 후보가 내세운 공약과 살아온 삶의 이력, 
@@ -160,7 +160,7 @@ export default function Home() {
                 <div className="rounded-2xl bg-white/80 p-5">
                   <p className="text-sm font-semibold text-black/50">기존 방식의 한계</p>
                   <ul className="mt-3 space-y-2 text-[15px] leading-7 text-black/75">
-                    <li>• 열정만으로 해결할 수 없는 한계</li>
+                    <li>• 열정만으로 해결 안되는 한계</li>
                     <li>• 쌍방향 소통의 부재</li>
                     <li>• MZ세대와의 소통 필요</li>
                   </ul>
