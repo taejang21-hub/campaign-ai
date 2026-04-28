@@ -147,7 +147,7 @@ export default function Home() {
                 지금 바로 문의하기
               </a>
               <a
-                href="tel:050713388402" target="_blank"
+                href="https://blog.naver.com/saebom8402" target="_blank"
                 className="rounded-full border border-black/15 bg-white/80 px-6 py-3 text-sm font-bold text-black transition hover:bg-white"
               >
                 선착순 이벤트 신청하기
@@ -333,8 +333,8 @@ export default function Home() {
               <p>✔ 후보별 공약 / 철학 / 비전을 AI에 반영</p>
               <p>✔ 후보별 맞춤 기능과 디자인으로 제작</p>
               <p>✔ 필요 시 블로그, 인스타 개설 무료 지원</p>
-              <p>✔ 공보물, 포스터 등 홍보물 패키지 제작 가능</p>
-              <p>✔ 공보물과 함께 제작 시 90% 할인 제공</p>
+              <p>✔ 선거기간 AI토큰 완전 무료 제공</p>
+              <p>✔ 공보물과 함께 제작 시 30% 할인 제공</p>
             </div>
           </div>
         </section>
