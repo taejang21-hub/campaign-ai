@@ -392,7 +392,7 @@ export default function Home() {
         <img
     src="/logo.png"
     alt="당선비서AI 로고"
-    className="h-16 w-16 sm:h-16 sm:w-16 object-contain"
+    className="h-16 w-16 sm:h-16 sm:w-18 object-contain"
   />
         </div>
         <p className="mt-2 text-sm text-black/60">
@@ -410,9 +410,9 @@ export default function Home() {
 
       {/* 문의 */}
       <div className="flex flex-col gap-2 text-sm text-black/70">
-        <span className="font-semibold text-black">문의</span>
-        <span>대표 : 김창원</span>
-        <span>주소 : 경기도 화성시 효행구 봉담읍 와우안길 109 새봄인쇄사</span>
+        <span className="font-semibold text-black">새봄인쇄사</span>
+        <span>대표 : 김창원 / 개인정보관리책임자 : 김새봄</span>
+        <span>주소 : 경기도 화성시 효행구 봉담읍 와우안길 109</span>
         <span>전화: 0507-1338-8402</span>
         <span>이메일: saebom8402@naver.com</span>
       </div>
