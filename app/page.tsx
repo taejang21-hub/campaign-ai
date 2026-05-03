@@ -73,9 +73,16 @@ export default function Home() {
             <p className="text-sm font-semibold tracking-[0.18em] text-black/50">
               승리하는 선거를 위한 게임 체인저
             </p>
-            <h1 className="mt-2 text-2xl font-bold tracking-[-0.03em]">
-              당선비서 AI
-            </h1>
+            <div className="flex items-center gap-2 sm:gap-3">
+  <img
+    src="/logo.png"
+    alt="당선비서AI 로고"
+    className="h-6 w-6 sm:h-8 sm:w-8 object-contain"
+  />
+  <h1 className="text-xl sm:text-3xl font-bold">
+    당선비서AI
+  </h1>
+</div>
           </div>
 
           <div className="hidden gap-3 md:flex">
