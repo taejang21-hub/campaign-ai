@@ -74,7 +74,7 @@ export default function Home() {
               승리하는 선거를 위한 게임 체인저
             </p>
             <h1 className="mt-2 text-2xl font-bold tracking-[-0.03em]">
-              선거 AI 시스템
+              당선비서 AI
             </h1>
           </div>
 
@@ -369,6 +369,57 @@ export default function Home() {
           </div>
         </section>
       </section>
+
+
+
+
+      <footer className="mt-20 border-t border-black/10 bg-white">
+  <div className="mx-auto max-w-[1200px] px-4 py-10">
+
+    {/* 상단 */}
+    <div className="flex flex-col gap-6 md:flex-row md:justify-between">
+
+      {/* 브랜드 */}
+      <div>
+        <div className="text-xl font-bold">
+          당선비서<span className="text-blue-600">AI</span>
+        </div>
+        <p className="mt-2 text-sm text-black/60">
+          대한민국 인쇄 편의 플랫폼<br />
+          새봄인쇄사
+        </p>
+      </div>
+
+      {/* 링크 */}
+      <div className="flex flex-col gap-2 text-sm text-black/70">
+        <span className="font-semibold text-black">서비스</span>
+        <span className="cursor-pointer hover:text-blue-600">샘플 체험</span>
+        <span className="cursor-pointer hover:text-blue-600">도입 문의</span>
+      </div>
+
+      {/* 문의 */}
+      <div className="flex flex-col gap-2 text-sm text-black/70">
+        <span className="font-semibold text-black">문의</span>
+        <span>대표 : 김창원</span>
+        <span>주소 : 경기도 화성시 효행구 봉담읍 와우안길 109 새봄인쇄사</span>
+        <span>전화: 0507-1443-8402</span>
+        <span>이메일: saebom8402@naver.com</span>
+      </div>
+
+    </div>
+
+    {/* 하단 */}
+    <div className="mt-8 border-t pt-6 text-xs text-black/50">
+      © {new Date().getFullYear()} 당선비서AI. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
     </main>
   );
 }
