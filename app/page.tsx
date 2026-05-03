@@ -77,7 +77,7 @@ export default function Home() {
   <img
     src="/logo.png"
     alt="당선비서AI 로고"
-    className="h-6 w-6 sm:h-8 sm:w-8 object-contain"
+    className="h-9 w-9 sm:h-8 sm:w-8 object-contain"
   />
   <h1 className="text-xl sm:text-3xl font-bold">
     당선비서AI
