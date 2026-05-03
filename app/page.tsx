@@ -392,7 +392,7 @@ export default function Home() {
         <img
     src="/logo.png"
     alt="당선비서AI 로고"
-    className="h-9 w-9 sm:h-8 sm:w-8 object-contain"
+    className="h-14 w-14 sm:h-16 sm:w-16 object-contain"
   />
         </div>
         <p className="mt-2 text-sm text-black/60">
@@ -421,7 +421,7 @@ export default function Home() {
 
     {/* 하단 */}
     <div className="mt-8 border-t pt-6 text-xs text-black/50">
-      © {new Date().getFullYear()} 당선비서AI. All rights reserved.
+      © {new Date().getFullYear()} 새봄인쇄사. All rights reserved.
     </div>
 
   </div>
