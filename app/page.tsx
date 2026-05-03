@@ -389,7 +389,11 @@ export default function Home() {
       {/* 브랜드 */}
       <div>
         <div className="text-xl font-bold">
-          당선비서<span className="text-blue-600">AI</span>
+        <img
+    src="/logo.png"
+    alt="당선비서AI 로고"
+    className="h-9 w-9 sm:h-8 sm:w-8 object-contain"
+  />
         </div>
         <p className="mt-2 text-sm text-black/60">
           대한민국 인쇄 편의 플랫폼<br />
@@ -400,8 +404,8 @@ export default function Home() {
       {/* 링크 */}
       <div className="flex flex-col gap-2 text-sm text-black/70">
         <span className="font-semibold text-black">서비스</span>
-        <span className="cursor-pointer hover:text-blue-600">샘플 체험</span>
-        <span className="cursor-pointer hover:text-blue-600">도입 문의</span>
+        <span className="cursor-pointer hover:text-blue-600"><a href="/candidate/lee" target="_blank">샘플 체험</a></span>
+        <span className="cursor-pointer hover:text-blue-600"><a href="/candidate/lee" target="_blank">도입 문의</a></span>
       </div>
 
       {/* 문의 */}
