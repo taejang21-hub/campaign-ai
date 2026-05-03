@@ -392,7 +392,7 @@ export default function Home() {
         <img
     src="/logo.png"
     alt="당선비서AI 로고"
-    className="h-14 w-14 sm:h-16 sm:w-16 object-contain"
+    className="h-16 w-16 sm:h-16 sm:w-16 object-contain"
   />
         </div>
         <p className="mt-2 text-sm text-black/60">
@@ -405,7 +405,7 @@ export default function Home() {
       <div className="flex flex-col gap-2 text-sm text-black/70">
         <span className="font-semibold text-black">서비스</span>
         <span className="cursor-pointer hover:text-blue-600"><a href="/candidate/lee" target="_blank">샘플 체험</a></span>
-        <span className="cursor-pointer hover:text-blue-600"><a href="/candidate/lee" target="_blank">도입 문의</a></span>
+        <span className="cursor-pointer hover:text-blue-600"><a href="http://blog.naver.com/saebom8402" target="_blank">도입 문의</a></span>
       </div>
 
       {/* 문의 */}
@@ -413,7 +413,7 @@ export default function Home() {
         <span className="font-semibold text-black">문의</span>
         <span>대표 : 김창원</span>
         <span>주소 : 경기도 화성시 효행구 봉담읍 와우안길 109 새봄인쇄사</span>
-        <span>전화: 0507-1443-8402</span>
+        <span>전화: 0507-1338-8402</span>
         <span>이메일: saebom8402@naver.com</span>
       </div>
 
