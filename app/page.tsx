@@ -388,7 +388,7 @@ export default function Home() {
 
       {/* 브랜드 */}
       <div>
-        <div className="text-xl font-bold">
+        <div className="flex items-center">
         <img
     src="/logo.png"
     alt="당선비서AI 로고"
