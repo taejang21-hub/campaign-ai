@@ -23,17 +23,17 @@ export const metadata = {
     siteName: "당선비서AI",
     images: [
       {
-        url: "/og.png", // 👉 이 파일 추가해야 함
+        url: "/og.png",
         width: 1200,
         height: 630,
       },
     ],
     locale: "ko_KR",
     type: "website",
-    verification: {
-      naver: "812bc0e47fdd77f7e6131a196234cc1b5b504a6b", // ← 여기에 코드 붙이기
-    },
-  
+  },
+
+  verification: {
+    naver: "812bc0e47fdd77f7e6131a196234cc1b5b504a6b",
   },
 };
 
