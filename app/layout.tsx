@@ -30,6 +30,10 @@ export const metadata = {
     ],
     locale: "ko_KR",
     type: "website",
+    verification: {
+      naver: "812bc0e47fdd77f7e6131a196234cc1b5b504a6b", // ← 여기에 코드 붙이기
+    },
+  
   },
 };
 
